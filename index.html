@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Operators</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #f39c12;
+        }
+        .input-group {
+            margin: 10px 0;
+        }
+        input {
+            width: 80%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            width: 45%;
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .green { background-color: #27ae60; color: white; }
+        .yellow { background-color: #f1c40f; color: black; }
+        .red { background-color: #c0392b; color: white; }
+        .blue { background-color: #2980b9; color: white; }
+        .output {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi, my name is Nickel. Let's test your Math skill.</h1>
+        <div class="input-group">
+            <label>Enter a value for a:</label>
+            <input type="number" id="num1">
+        </div>
+        <div class="input-group">
+            <label>Enter a value for b:</label>
+            <input type="number" id="num2">
+        </div>
+        <button class="green" onclick="calculate('product')">Product of a and b</button>
+        <button class="yellow" onclick="calculate('power')">a raised to b</button>
+        <button class="red" onclick="calculate('remainder')">Get the remainder</button>
+        <button class="blue" onclick="calculate('equal')">Check if a is equal to b</button>
+        <div class="output" id="result"></div>
+    </div>
+    <script>
+        function power(){
+            let a = document.getElementById('var1').value;
+            window.alert(Math.pow('vari1','vari1')
+        }
+        "The answer is" + Math.pow
+
+        let vari1=parseInt((document).values)
+                  pursefFloat(())
+
+            if (isNaN(a) || isNaN(b)) {
+                result = 'Please enter valid numbers!';
+            } else {
+                switch (power) {
+                    case 'product':
+                        result = `Product: ${a * b}`;
+                        break;
+                    case 'power':
+                        result = `a^b: ${Math.pow(a, b)}`;
+                        break;
+                    case 'remainder':
+                        result = `Remainder: ${a % b}`;
+                        break;
+                    case 'equal':
+                        result = a === b ? 'a is equal to b' : 'a is not equal to b';
+                        break;
+                }
+            }
+  
+    </script>
+</body>
+</html>
